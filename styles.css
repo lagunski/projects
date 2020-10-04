@@ -1,0 +1,44 @@
+.logo img {
+    width: 1120px;
+    height: 400px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.inp {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+
+}
+ .inp input {
+     width: 800px;
+     height: 35px;
+ }
+
+ .outPut {
+     display: flex;
+     justify-content: center;
+ }
+.outPut button {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    border: 2px solid #d70a0a;
+    background: #3e9d40;
+    border-radius: 6px;
+    text-shadow: #7ea4bd 0 1px 0;
+}
+.outPut button:hover {
+    border: 2px solid #710909;
+    text-shadow: #1e4158 0 5px 0;
+    background: #568b36;
+    color: #c2bec2;
+}
+.outPut button:active {
+    text-shadow: #1e4158 0 5px 0;
+    border: 2px solid #c14646;
+    background: #65a9d7;
+    color: #fff;
+}
