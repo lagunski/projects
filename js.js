@@ -5,10 +5,10 @@ let input = document.querySelector('#input');
 let button = document.querySelector('#button');
 let searchButtonCallback = () => {
     if (input.value === 'google') {
-        setTimeout("alert('Yandex круче')",3000);
+        alert('Yandex круче');
     }
     else
-        setTimeout("alert(input.value)",3000);
+        alert(input.value);
 }
 
 button.addEventListener('click', searchButtonCallback);
@@ -92,10 +92,16 @@ console.log (b);*/
  (всё то же самое, как и работало, в частности с “яндекс круче всех”, но с задержкой в 3 секунды) */
   
 
-/*function timer() {
-    setTimeout(() => {
-        alert('вывод данных через 3 секунды');
-    }, 3000);
-}*/
+/*let input = document.querySelector('#input');
+let button = document.querySelector('#button');
+let searchButtonCallback = () => {
+    if (input.value === 'google') {
+        setTimeout("alert('Yandex круче')",3000);
+    }
+    else
+        setTimeout("alert(input.value)",3000);
+}
+
+button.addEventListener('click', searchButtonCallback);*/
 
 
